@@ -638,11 +638,9 @@ async def _(client, message):
 
                     group = 0
                     async for dialog in client.get_dialogs():
-                        if (
-                            dialog.chat.type in (ChatType.GROUP, ChatType.SUPERGROUP)
-                            and dialog.chat.id not in blacklist
-                            dialog.chat.id not in BLACKLIST_CHAT
-                        ):
+                        if (dialog.chat.type in (ChatType.GROUP, ChatType.SUPERGROUP) and
+                            dialog.chat.id not in blacklist and
+                            dialog.chat.id not in BLACKLIST_CHAT):
                             try:
                                 await client.forward_messages(
                                     dialog.chat.id,
