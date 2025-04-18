@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/userbor13/ubotpremx
+git clone https://github.com/vina95833/userbotprem
 ```
 ```
-cd ubotpremx && screen -S ubotpremx
+cd userbotprem
 ```
 ```
 apt install ffmpeg -y
@@ -27,11 +27,8 @@ pip3 install -r requirements.txt
 cp sample.env .env && nano .env
 ```
 ```
-screen -S ubotpremx
+screen -S userbotprem
 ```
 ```
 python3 -m PyroUbot
-```
-```
-python3 -m venv venv && source venv/bin/activate && python3 -m PyroUbot
 ```
