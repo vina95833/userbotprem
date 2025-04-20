@@ -32,3 +32,6 @@ screen -S userbotprem
 ```
 python3 -m PyroUbot
 ```
+# Pyro reqruitmen.txt
+user : moire-mor
+pass : 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
