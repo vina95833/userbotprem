@@ -312,9 +312,9 @@ async def _(client, callback_query):
     await bash("rm -rf *session*")
     await install_my_peer(new_client)
     try:
-        await new_client.join_chat("vina0198")
-        await new_client.join_chat("moire_logs")
-        await new_client.join_chat("moire_room")
+        await new_client.join_chat("userbot918")
+        await new_client.join_chat("GRUPPUBLICVINA")
+        await new_client.join_chat("userbotvina")
         await new_client.join_chat("suportvina3")
         await new_client.join_chat("grupvina86")
         await new_client.join_chat("GRUPBOTMUSICVINA")
