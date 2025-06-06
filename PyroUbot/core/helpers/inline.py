@@ -136,7 +136,7 @@ class BTN:
     def START(message):
         if not message.from_user.id == OWNER_ID:
             button = 
-                InlineKeyboardButton("🎁 ғʀᴇᴇ ᴛʀɪᴀʟ 🎁", callback_data="free_prem"),
+                [InlineKeyboardButton("🎁 ғʀᴇᴇ ᴛʀɪᴀʟ 🎁", callback_data="free_prem"),
                 [InlineKeyboardButton("⦪ ʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ ⦫", callback_data="bahan")],
                 [
                     InlineKeyboardButton("⳹ ʀᴇᴘᴏ ᴜsᴇʀʙᴏᴛ ⳼", url="t.me/vina0198"), 
