@@ -137,9 +137,9 @@ class BTN:
         if not message.from_user.id == OWNER_ID:
             button = [
                 [InlineKeyboardButton("⦪ ʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ ⦫", callback_data="bahan")],
-                [
+                [InlineKeyboardButton("🎁 ғʀᴇᴇ ᴛʀɪᴀʟ 🎁", callback_data="free_prem"),
                     InlineKeyboardButton("⳹ ʀᴇᴘᴏ ᴜsᴇʀʙᴏᴛ ⳼", url="t.me/vina0198"), 
-                    InlineKeyboardButton("⳹ ᴏᴡɴᴇʀ ⳼", url="t.me/Vinacantik23")
+                    InlineKeyboardButton("⳹ ᴏᴡɴᴇʀ ⳼", url="t.me/Vinacantik27")
                 ],
                 [
                     InlineKeyboardButton("⦪ ʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ⳼", callback_data="buat_ubot"),
