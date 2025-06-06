@@ -129,7 +129,7 @@ class BTN:
     def EXP_UBOT():
         button = [
             [InlineKeyboardButton("beli userbot", callback_data="bahan")],
-        ]
+        ]     
         return button
 
     
@@ -137,9 +137,9 @@ class BTN:
         if not message.from_user.id == OWNER_ID:
             button = [
                 [InlineKeyboardButton("⦪ ʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ ⦫", callback_data="bahan")],
-                [
-                    InlineKeyboardButton("⳹ ʀᴇᴘᴏ ᴜsᴇʀʙᴏᴛ ⳼", url="t.me/vina0198"), 
-                    InlineKeyboardButton("⳹ ᴏᴡɴᴇʀ ⳼", url="t.me/Vinacantik23")
+                [InlineKeyboardButton("🎁 ғʀᴇᴇ ᴛʀɪᴀʟ 🎁", callback_data="free_prem"),
+                    InlineKeyboardButton("⳹ ʀᴇᴘᴏ ᴜsᴇʀʙᴏᴛ ⳼", url="t.me/userbot918"), 
+                    InlineKeyboardButton("⳹ ᴏᴡɴᴇʀ ⳼", url="t.me/Vinacantik27")
                 ],
                 [
                     InlineKeyboardButton("⦪ ʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ⳼", callback_data="buat_ubot"),
