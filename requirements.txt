@@ -2,7 +2,7 @@ python-dotenv
 telegraph==2.2.0
 TgCrypto==1.2.5
 tornado==6.4.1
-tgcalls==2.0.0
+py-tgcalls==2.0.2
 rich==13.7.1
 pytz==2024.1
 psutil
